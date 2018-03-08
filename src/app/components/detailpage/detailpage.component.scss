@@ -1,0 +1,47 @@
+.news-banner {
+    // background: url('../../../assets/images/sports/1.jpg');
+    background-position: center;
+    background-color: #000;
+}
+
+.news-banner > img{
+        width: 100%;
+        display: block;
+}
+.panel.unstyled-panel {
+    box-shadow: none !important;
+}
+
+h4.title {
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+p.desc {
+    text-align: left;
+}
+
+.btn.btn-fab{
+    height: 30px;
+    min-width: 30px;
+    width:30px;
+    background: #fff;
+}
+
+.btn.btn-fab  i{
+    font-size: 18px;
+}
+
+.btn.btn-icon-fb i{
+    color: #4867aa;
+}
+
+.btn.btn-icon-twitter i{
+    color: #1da1f2;
+}
+
+.btn.btn-icon-whatsapp i{
+    color: #65bc54;
+}

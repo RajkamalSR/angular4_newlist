@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="news-banner">
+      <img src="http://lorempixel.com/248/248/people/{{id}}" />
+    </div>
+
+    <div class="news-links">
+      <ul class="breadcrumb" style="margin-bottom: 5px;">
+        <li><a href="javascript:void(0)" [routerLink]="['/newslist']">Home</a></li>
+        <li><a href="javascript:void(0)">Trending</a></li>
+      </ul>
+    </div>
+
+    <div class="panel panel-default unstyled-panel">
+      <div class="panel-body">
+        <h4 class="title">{{responseData[id].title}}</h4>
+        <p class="desc">{{responseData[id].description}}</p>
+       
+
+        <div class="share-icons">
+          <a href="javascript:void(0)" class="btn btn-default btn-fab btn-icon-fb"><i class="ion-social-facebook"></i></a>
+          <a href="javascript:void(0)" class="btn btn-default btn-fab btn-icon-whatsapp"><i class="ion-social-whatsapp"></i></a>
+          <a href="javascript:void(0)" class="btn btn-deafult btn-fab btn-icon-twitter"><i class="ion-social-twitter"></i></a>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

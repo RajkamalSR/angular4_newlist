@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NewsList</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href=" http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href=" http://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" type="text/css" href=" http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+ 
+    <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+   <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-material-design/dist/css/ripples.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="./node_modules/nouislider/dist/nouislider.min.css">-->
+<link rel="stylesheet" type="text/css" href="./node_modules/snackbarjs/dist/snackbar.min.css">
+    
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style>
+  body {
+    background-color: #ffffff;
+}
+
+.list-group .list-group-separator:before{
+  width: 100%;
+}
+
+.container-fluid{
+  max-width:768px;
+}
+  </style>
+</head>
+<body>
+  <app-root>Loading...</app-root>
+</body>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/bootstrap-material-design/dist/js/ripples.min.js"></script>
+<script src="./node_modules/bootstrap-material-design/dist/js/material.min.js"></script>
+<script src="./node_modules/nouislider/dist/nouislider.min.js"></script>
+<script src="./node_modules/snackbarjs/dist/snackbar.min.js"></script>
+<script>
+  $.material.init();
+  var slider = document.getElementById('slider');
+  $('[data-toggle="tooltip"]').tooltip();
+// noUiSlider.create(slider, {
+// 	start: [20, 80],
+// 	connect: true,
+// 	range: {
+// 		'min': 0,
+// 		'max': 100
+// 	}
+// });
+
+
+
+
+</script>
+</html>

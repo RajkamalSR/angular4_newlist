@@ -1,0 +1,126 @@
+<app-header></app-header>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="list-group list-group-1">
+
+      <div *ngFor="let para of responseData; let i = index">
+        <a href="/detailpage" [routerLink]="['/detailpage/'+i]" >
+          <div class="list-group-item">
+            <div class="row-picture">
+              <img class="circle" src="http://lorempixel.com/56/56/people/{{i}}" alt="icon">
+            </div>
+            <div class="row-content">
+              <h4 class="list-group-item-heading">{{para.title}}</h4>
+
+              <p class="list-group-item-text">{{para.description}}</p>
+            </div>
+          </div>
+        </a>
+        <div class="list-group-separator"></div>
+      </div>
+
+      
+
+
+      <!--<div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/6" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div> 
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/7" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/1" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/2" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/3" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/8" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/9" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+
+      <div class="list-group-item">
+        <div class="row-picture">
+          <img class="circle" src="http://lorempixel.com/56/56/people/10" alt="icon">
+        </div>
+        <div class="row-content">
+          <h4 class="list-group-item-heading">Tile with another avatar</h4>
+
+          <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        </div>
+      </div>-->
+
+
+
+    </div>
+  </div>
+</div>
